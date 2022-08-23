@@ -32,7 +32,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>book.web</groupId>
+            <groupId>position.web</groupId>
             <artifactId>starter</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

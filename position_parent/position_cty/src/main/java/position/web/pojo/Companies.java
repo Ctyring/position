@@ -70,6 +70,14 @@ public class Companies implements Serializable{
 	)
 	private String details;
 
+	public String getDetails() {
+		return details;
+	}
+
+	public void setDetails(String details) {
+		this.details = details;
+	}
+
 	public Long getId() {
 		return id;
 	}

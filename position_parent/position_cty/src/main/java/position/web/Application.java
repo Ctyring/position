@@ -1,5 +1,4 @@
 package position.web;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
@@ -9,9 +8,8 @@ import org.springframework.web.client.RestTemplate;
 import position.web.cty.util.IdWorker;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import xyz.erupt.core.annotation.EruptScan;
-
-@SpringBootApplication
 @EnableSwagger2
+@SpringBootApplication
 @EntityScan
 @EruptScan
 @EnableDiscoveryClient

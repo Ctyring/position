@@ -55,7 +55,7 @@ spring:
     #    url: jdbc:mysql://124.221.104.172:3306/erupt?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     #    username: erupt
     #    password: Gi4f5DxYdY4xxGdC
-    url: jdbc:mysql://localhost:3306/erupt?characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/position?characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: root
   cloud:
@@ -65,6 +65,8 @@ spring:
   jpa:
     database: MySQL
     show-sql: true
+    hibernate:
+      ddl-auto: update
   mail:
     host: 220.181.12.13
     username: caotiyuan@163.com
