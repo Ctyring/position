@@ -17,8 +17,8 @@ import java.util.Date;
  * @date 2022/8/23
  */
 @Entity
-@Table(name="UserPosition")
-@Erupt(name = "user_position")
+@Table(name="user_position")
+@Erupt(name = "UserPosition")
 public class UserPosition {
     @Id
     @GeneratedValue(generator = "generator")
