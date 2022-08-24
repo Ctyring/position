@@ -95,7 +95,7 @@ spring:
     default-encoding: UTF-8
   redis:
     database: 0
-    host: redis
+    host: 124.221.104.172
     lettuce:
       pool:
         max-active: 8   #最大连接数据库连接数,设 -1 为没有限制

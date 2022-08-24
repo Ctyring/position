@@ -12,7 +12,7 @@ import xyz.erupt.core.annotation.EruptScan;
 @SpringBootApplication
 @EntityScan
 @EruptScan
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 public class Application {
 
     public static void main(String[] args) {
