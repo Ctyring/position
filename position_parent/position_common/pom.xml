@@ -59,6 +59,12 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-common</artifactId>
+            <version>1.3.3</version>
+            <scope>compile</scope>
+        </dependency>
         <!--minio-->
         <dependency>
             <groupId>io.minio</groupId>

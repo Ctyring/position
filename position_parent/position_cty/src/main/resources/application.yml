@@ -62,6 +62,12 @@ spring:
     nacos:
       discovery:
         ip: user
+    sentinel:
+      web-context-unify: false
+      transport:
+        dashboard: sentinel:8087
+      # 懒加载Sentinel Dashboard菜单
+      eager: false
   jpa:
     database: MySQL
     show-sql: true
